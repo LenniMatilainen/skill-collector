@@ -1,6 +1,9 @@
 # Skill Collector
+
+## Description
 Skill collector tool for JAMK's FutureFactory course
 
+## Links
 Documentation can be found from
 [https://lennimatilainen.com/assignments/skill-collector](https://lennimatilainen.com/assignments/skill-collector)
 
