@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>Skill Collector</title>
+    <script defer data-domain="86.50.229.147" src="https://plausible.io/js/script.js"></script>
+  </head>
+  <body>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <!-- Doorbell.io starts-->
+    <script type="text/javascript">
+      window.doorbellOptions = {
+          "id": "13731",
+          "appKey": "4qeU6oMkHtNduJSFs646hZQ8CnqDXpQ3Ys2mSyFLrvPJkZlG2qVOAT8m9r8DBCtE"
+      };
+      (function(w, d, t) {
+          var hasLoaded = false;
+          function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/'+window.doorbellOptions['id']+'?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
+          if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
+          if (d.readyState == 'complete') { l(); }
+      }(window, document, 'script'));
+  </script>
+ <!-- Doorbell.io ends-->
+ 
+  </body>
+</html>

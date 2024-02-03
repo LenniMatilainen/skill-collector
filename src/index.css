@@ -1,0 +1,61 @@
+body {
+    background-color: #0D004C;
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+h1, h2, p, address {
+    color: #ffff;
+}
+
+.state {
+    margin-top: 311px;
+    text-align: center;
+}
+
+.state > h1 {
+    font-size: 42px;
+    font-family: 'Sofia Pro Black';
+    margin: 8px;
+}
+
+.state > h2 {
+    font-size: 32px;
+    margin: 0px 0px 8px 0px;
+}
+
+.collector {
+    color: #E2066F
+}
+
+.login {
+    text-align: center;
+    line-height: 8px;
+}
+
+.login > input {
+    height: 46px;
+    width: 613px;
+    text-align: center;
+}
+
+.login > button {
+    height: 52px;
+    width: 52px;
+    margin-left: 10.5px;
+    cursor: pointer;
+    background-color: #E2066F;
+    color: #ffff;
+    font-family: 'Sofia Pro Black';
+    transition: 250ms;
+    padding: 0;
+    border: none;
+}
+
+.login > button:hover {
+    color: #E2066F;
+    background-color: #ffff;
+}
+
+.instructions {
+    text-align: center;
+}
