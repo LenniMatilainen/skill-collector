@@ -1,4 +1,4 @@
-# skill-collector
+# Skill-collector
 Skill collector tool for JAMK's FutureFactory course
 
 Documentation can be found from
