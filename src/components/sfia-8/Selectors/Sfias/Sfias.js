@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Skill from "./Skill";
-import SkillData from "../../../skillData"
+import SkillData from "../../../../skiller-sfia-8-data.json"
 import Category from "./Category";
 
 export default function Sfias(props) {
