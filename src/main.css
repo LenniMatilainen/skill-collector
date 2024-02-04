@@ -221,6 +221,7 @@ nav {
     cursor: pointer;
     flex-shrink: 0;
     overflow: hidden;
+    z-index: 11;
 }
 
 .sub {
@@ -250,10 +251,6 @@ nav {
     text-align: center;
     max-width: 81px;
     font-size: 14px;
-}
-
-#leftBox {
-    z-index: -1;
 }
 
 .category--selector {

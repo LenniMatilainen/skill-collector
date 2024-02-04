@@ -1,5 +1,5 @@
 import Skill from "../../Sfias/Skill"
-import skillData from "../../../../skillData"
+import skillData from "../../../../../skiller-sfia-8-data.json"
 import { useState, useEffect } from "react"
 import React from "react";
 

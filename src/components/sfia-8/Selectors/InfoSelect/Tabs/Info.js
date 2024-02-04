@@ -1,4 +1,4 @@
-import Skills from "../../../../skillData"
+import Skills from "../../../../../skiller-sfia-8-data.json"
 
 export default function Info(props) {
     function findById(id) {
@@ -113,7 +113,6 @@ export default function Info(props) {
                 </div>
                 }
             </>
-    
         )
     }
 }

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 export default function Skill(props) {
-    const [zIndex, setZIndex] = useState(null)
+    const [zIndex, setZIndex] = useState(0)
     const subCategoryColor = props.Color
     const style = {
         backgroundColor: subCategoryColor
