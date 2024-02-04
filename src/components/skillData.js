@@ -1,4 +1,4 @@
-export default [
+const skillData = [
  {
   "Id": 57,
   "Levels": "d",
@@ -3161,3 +3161,5 @@ export default [
   "Level6Desc": "Defines the workforce planning approach for a significant part of the organisation in line with strategic business goals. Communicates the workforce planning approach and obtains organisational commitment. Selects frameworks to be used for the organisation's skills and capability inventory. Interprets business strategy to direct workforce demand forecasting (skills and numbers) for the organisation. Monitors the external environment in relation to supply and emerging trends. Influences people management policies and practices to align with workforce plans. Integrates with resourcing strategies and plans. Monitors execution of workforce plans."
  }
 ]
+
+export default skillData;

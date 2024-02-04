@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
       <nav>
         <section onClick={Refresh} className="Logos">
-            <img className="WhiteLogo" src={WhiteLogo} />
+            <img className="WhiteLogo" src={WhiteLogo} alt="JAMK's white logo" />
             <h1 className="pinkLogo">Skill Collector</h1>
         </section>
         <section className="state">

@@ -1,7 +1,6 @@
 import "./main.css"
 import Navbar from "./components/sfia-8/Nav";
 import Selectors from "./components/sfia-8/Selectors/Selectors"
-import GDPR from "./components/GDPR/GDPR"
 import { useState } from "react";
 
 function Main() {
@@ -64,12 +63,9 @@ function removeSkill(id) {
     });
   });
 }
-
-
   return (
     <>
       <Navbar />
-      <GDPR />
       <Selectors
       pushNewSkill={pushNewSkill}
       RemoveSkill={removeSkill}
